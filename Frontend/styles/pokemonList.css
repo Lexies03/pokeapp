@@ -1,0 +1,11 @@
+.pokemonCard_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.pokemonCard_li {
+  flex-basis: 30%;
+}

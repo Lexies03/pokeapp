@@ -1,0 +1,22 @@
+.btn_loadMore_container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn_loadMore {
+  height: 40px;
+  padding: 5px;
+  font-size: 1rem;
+  color: #f0f0f0;
+  background-color: #146c94;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_loadMore:hover {
+  background-color: #322653;
+}
