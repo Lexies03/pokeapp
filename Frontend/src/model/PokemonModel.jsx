@@ -4,8 +4,8 @@ class PokemonModel {
   async getPokemons(limit, skip) {
     try {
       const response = await fetch(
-        // `http://localhost:3001/pokemons?limit=${limit}&skip=${skip}`
-        `https://pokeapp-be-1.onrender.com/pokemons?limit=${limit}&skip=${skip}`
+        `http://localhost:3001/pokemons?limit=${limit}&skip=${skip}`
+        // `https://pokeapp-be-1.onrender.com/pokemons?limit=${limit}&skip=${skip}`
       );
       const data = await response.json();
       return data;
